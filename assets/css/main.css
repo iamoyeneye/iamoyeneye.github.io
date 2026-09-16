@@ -4739,6 +4739,7 @@ input, select, textarea {
 	font-family: "Helvetica Neue", Arial, sans-serif;
 	font-size: 1.15rem;
 	font-weight: 400;
+	font-style: normal;
 	line-height: 1.8;
 	letter-spacing: 0.04em;
 }
