@@ -4720,3 +4720,8 @@ input, select, textarea {
 		padding: 2em 0;
 	}
 }
+/* Consistent project thumbnail height */
+#main > section[id$="-projects"] .posts > article .image.fit img {
+	height: 280px;
+	object-fit: cover;
+}
