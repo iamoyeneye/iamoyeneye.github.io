@@ -4687,3 +4687,36 @@ input, select, textarea {
 		}
 
 	}
+/* Portfolio project grid */
+#main > section[id$="-projects"] .posts {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -2em;
+}
+
+#main > section[id$="-projects"] .posts > article {
+	width: 50%;
+	padding: 2em;
+}
+
+#main > section[id$="-projects"] .posts > article .image.fit {
+	display: block;
+	width: 100%;
+}
+
+#main > section[id$="-projects"] .posts > article .image.fit img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 736px) {
+	#main > section[id$="-projects"] .posts {
+		display: block;
+		margin: 0;
+	}
+
+	#main > section[id$="-projects"] .posts > article {
+		width: 100%;
+		padding: 2em 0;
+	}
+}
