@@ -4747,3 +4747,7 @@ input, select, textarea {
 #intro p strong {
 	font-weight: 600;
 }
+/* Precision Analytics hero background */
+#intro {
+	background: linear-gradient(135deg, #0f1720 0%, #172431 55%, #0b1118 100%);
+}
